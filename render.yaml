@@ -9,6 +9,10 @@ services:
     autoDeployTrigger: commit
 
     envVars:
+      - key: PORT
+        value: "10000"
+      - key: SERVER_PORT
+        value: "10000"
       - key: EULA
         value: "TRUE"
       - key: TYPE
